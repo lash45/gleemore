@@ -1,0 +1,319 @@
+html, body{
+	padding: 0;
+	margin:0;
+}
+
+nav {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+
+.top-nav{
+
+	background-color: #fff;
+
+}
+
+
+.navbar .custom-navbar{
+	padding:0;
+	margin:0;
+}
+
+.navbar .navbar-nav {
+	margin-right: 75px;
+}
+
+
+
+.custom-toggler.navbar-toggler{
+	border: none;
+	border-color: none;
+	background: transparent;
+
+
+}
+
+.navbar .navbar-nav .nav-item{
+	padding: 0px 5px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+	font-family: 'poppins';
+	font-size: 14px;
+	color: gray;
+}
+
+.navbar .navbar-header{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.navbar .navbar-header .navbar-brand img{
+	color: #fff;
+	max-width: 250px;
+}
+
+
+
+@font-face{ 
+font-family: taken;
+src: url('fonts/taken.otf') format('opentype');
+ }
+@font-face{ 
+font-family: rita;
+src: url('fonts/rita.ttf') format('truetype');
+ }
+
+ @font-face{
+ 	font-family: neue;
+ 	src:url('fonts/neue.otf') format('opentype');
+ }
+
+@media(max-width: 768px){
+		
+.navbar .navbar-header .navbar-brand img{color: #fff; max-width: 180px;}
+.custom-navbar.navbar{
+	padding: 20px 0px;
+	align-content: center;
+	background-color: #fff;
+
+}
+.navbar .navbar-nav .nav-item {padding: 10px 0px;margin-left:10em;}
+.collapse-navbar ul:nth-child(2){color: yellow;}
+
+	#home {margin-top:50px;}
+	#home .background-web {display: none;}
+	#home h1{ color: #2c3e50 !important;
+		top: 7% !important;
+		font-size: 34px !important;
+		padding-top: 50px !important;
+	 }
+
+	#home .background-mobile{ display:block !important; padding-top: 100px;}
+	#works .seminar_image_1{display: block !important;}
+	#works .seminar_image_2{display:none;}
+	#works .gender_web{display: none;}
+	#works .gender_mobile{display: block !important;}	
+}
+
+
+
+#home {
+
+	position: relative;
+	width: 100%;
+	
+
+	z-index: -1;
+
+}
+
+#home .background-mobile{
+	display: none;	
+}
+
+#home h1{
+
+	position: absolute;
+	z-index: 1;
+	top: 20%;
+	left: 10%;
+	color: #808080;
+	font-family: 'Raleway';
+	font-size: 36px;
+}
+#about {
+	margin-top: 100px;
+}
+#about p{
+	padding-top: 18px;
+	font-family: 'Raleway';
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #5c656e;
+}
+
+
+#about h1{padding-top: 15px;
+	font-family: 'Open Sans';
+	font-size: 28px;
+	font-weight: 700;
+	color: #505050;
+}
+
+
+#works h1{padding-top: 15px;
+	font-family: 'Open Sans';
+	font-size: 28px;
+	font-weight: 700;
+	color: #505050;
+}
+
+
+.bar {
+	/*margin:5px 0px;*/
+	width: 50px;
+	height: 5px;
+	background-color: #808080; 
+	color: #808080
+}
+#contact .bar {
+	
+	width: 50px;
+	height: 1px;
+}
+
+
+
+
+
+
+.head{
+	position: relative;
+	width: 200px;
+	opacity: 0.5;
+	
+}
+
+
+.gear_black{
+	position: absolute;
+	width: 40px;
+	top:20px;
+	right: 50%;
+	opacity: 0.4;
+}
+
+
+.gear_red{
+	position: absolute;
+	width: 50px;
+	top: 52px;
+	left: 32%;
+	opacity: 0.4; 
+	transform: rotate(0deg);
+/*	transition: all 0.4s linear;*/
+}
+
+
+
+.gear_green{
+	position: absolute;
+	width: 25px;
+	top:  24px;
+	right: 44%;
+	opacity: 0.4;
+}
+
+
+.gear_gray{
+	position: absolute;
+	width: 80px;
+	top: 47px;
+	left: 44%;
+	opacity: 0.4;
+}
+
+
+
+.gear_purple{
+	position: absolute;
+	width: 10px;
+	top: 20px;
+	left: 56%;
+	opacity: 0.4;
+}
+
+.gear_blue{
+	position: absolute;
+	width: 50px;
+	top: 50px;
+	left: 66%;
+	opacity: 0.4;
+}
+#works{
+	margin-top: 150px;
+}
+
+#works img{
+
+	align-content: center;
+
+	width: 300px;	
+}
+
+#works .seminar_image_1{display:none;}
+#works .gender_mobile{display: none;}
+
+
+.subhead{
+	font-size: 20px;
+	font-family: Raleway;
+}
+
+.subhead.training{
+	
+}
+
+.training{
+	/*color: #ff5483;*/
+	color:#5fdcd6;
+	font-size: 24px;
+	font-family: Raleway;
+}
+
+#works .train{
+	padding: 60px 0px;
+}
+
+
+#works .subhead.seminar{
+	color: #66d1ef;
+	font-size: 24px;
+	font-family: Raleway;
+}
+
+
+
+#works .subhead.boss{
+	/*color: #cc97f4;*/
+	color:#c1392b;
+	font-size: 24px;
+	font-family: Raleway;
+}
+#works .subhead.gender{
+	color: #cc97f4;
+	
+	font-size: 24px;
+	font-family: Raleway;
+}
+
+#works .subhead.edit{
+	color: #6cb9f1;
+	
+	font-size: 24px;
+	font-family: Raleway;
+}
+
+
+
+.training p{
+}
+
+#works .row{
+	padding: 50px;
+}
+
+#works  p{
+/*	justify-content: left;*/
+	font-size: 16px;
+	font-family: 'Raleway';
+	font-weight: 300;
+	color: 	#5c656e;
+}
